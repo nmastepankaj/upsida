@@ -1,0 +1,132 @@
+:root{
+    --center-img-brightness: 100%;
+    --transition-time: 200ms;
+}
+.light{
+    --center-img-brightness: 100%;
+    transition: all var(--transition-time) ease-in-out;
+}
+.dark{
+    --center-img-brightness: 200%;
+    transition: all var(--transition-time) ease-in-out;
+}
+.header{
+    height: var(--head-height);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bgcolor-high);
+    position: fixed;color: var(--tcolor);
+    z-index: 100;
+}
+.up-logo{
+    position: relative;
+    left: 4rem;
+}
+.header-center{
+    position: relative;
+    left: 1rem;
+}
+.award-img{
+    width: 60%;
+}
+.up-logo, .award-img, .header-btn-link{
+    opacity: 1;
+    visibility: visible;
+    width: auto;
+    height: auto;
+}
+.side-bar-expand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-bar-expand-md, .side-bar-expand-sm{
+    font-size: 2rem;
+    padding: 0.75rem;
+    border-radius: 500px;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    transition: all 0.2s ease-in-out;
+}
+.side-bar-expand-md:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.header>*, .header-btn{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    width: auto;
+    max-height: var(--head-height);
+    max-width: 100%;
+}
+.header-center{
+    display: flex;
+    flex-flow: row;
+}
+.header-center img{
+    filter: brightness(var(--center-img-brightness));
+    width: auto;
+    max-height: var(--head-height);
+    max-width: 50%;
+}
+.header-btn-link{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 992px) {
+    .header-left{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-center img{
+        max-width: 90%;
+    }
+    .empower{
+        display: none;
+    }
+    .up-logo, .award-img, .header-btn-text, .calendar{
+        opacity: 0;
+        display: block;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .header-btn-link, .header-btn-link  *{
+        margin: 0;
+    }
+    .side-bar-expand-md{
+        opacity: 1;
+        visibility: visible;
+        width: auto;
+        height: auto;
+        position: relative;
+        left: 0.75rem;
+    }
+    .side-bar-expand-sm{
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
+@media (max-width: 576px) {
+    .side-bar-expand-md{
+        opacity: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .side-bar-expand-sm{
+        position: relative;
+        right: 0.75rem;
+        opacity: 1;
+        visibility: visible;
+        width: auto;
+        height: auto;
+    }
+}

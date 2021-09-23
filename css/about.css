@@ -1,0 +1,13 @@
+.about_images{
+    width: 70vw;
+    height: auto;
+}
+@media (min-width:720px) {
+    .about_images{
+        width: 30vw;
+    }
+}
+.first_letter{
+    font-size: var(--text-xxl);
+    color: var(--main-600);
+}

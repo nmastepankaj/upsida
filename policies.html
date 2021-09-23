@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/side_bar.css">
+    <title>UPSIDA</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <div class="up-logo">
+                <img src="./images/up_Black.png" alt="Header image">
+            </div>
+            <div class="side-bar-expand">
+                <div class="side-bar-expand-md">
+                    <div class="side-bar-expand-btn-md">
+                        <span class="material-icons">menu</span>
+                    </div>
+                </div>
+                <div class="side-bar-expand-sm">
+                    <div class="side-bar-expand-btn-sm">
+                        <span class="material-icons">menu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="upsida-logo">
+                <img src="images/upsida-logo-name.png" alt="UPSIDA Logo Name">
+            </div>
+            <div class="award-img">
+                <img src="images/awards.png" alt="Awards">
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="calendar">
+                <noscript>Javascript Required</noscript>
+                <div class="day"></div>
+                <div class="full-date">
+                    <span class="date"></span>
+                    <span class="month"></span>
+                    <span class="year"></span>
+                </div>
+                <div class="full-time">
+                    <span class="hour"></span> :
+                    <span class="min"></span> :
+                    <span class="sec"></span>
+                    <span class="midday"></span>
+                </div>
+            </div>
+            <div class="header-btn">
+                <div class="webmail">
+                    <a href="http://webmail.upsidc.com/appsuite/" class="btn btn-warning web-mail header-btn-link">
+                        <span class="material-icons">email</span>
+                        <span class="header-btn-text">Web Mail</span>
+                    </a>
+                </div>
+                <div class="login">
+                    <a href="./OfficeUsers/Login.html" class="btn btn-primary log-in header-btn-link">
+                        <span class="material-icons">login</span>
+                        <span class="header-btn-text">Log In</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="side-bar">
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li class="nav-links">
+                        <a href="./index.html" class="nav-link">
+                            <span class="nav-icon material-icons">home</span>
+                            <span class="nav-link-text">&nbsp; Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="./aboutUPSIDC.html" class="nav-link">
+                            <span class="nav-icon material-icons">info</span>
+                            <span class="nav-link-text">&nbsp; About UPSIDA</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="./policies.html" class="nav-link">
+                            <span class="nav-icon material-icons">policy</span>
+                            <span class="nav-link-text">&nbsp; Policies</span>
+                        </a>
+                    </li>
+                    <li class="nav-links expand-check">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon material-icons">leaderboard</span>
+                            <span class="nav-link-text">&nbsp; Industrial Info</span>
+                        </a>
+                        <nav class="expand-nav hide">
+                            <ul class="expand-list">
+                                <li class="expand-item"><a href="./IndustrialAreas.html" class="expand-link">Industrial
+                                        Areas</a></li>
+                                <li class="expand-item"><a href="./VanVibhaagReport.html" class="expand-link">Plantation</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="nav-links">
+                        <a href="http://gis.onlineupsidc.com" class="nav-link">
+                            <span class="nav-icon material-icons">terrain</span>
+                            <span class="nav-link-text">&nbsp; GIS</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="http://eservices.onlineupsidc.com/" class="nav-link">
+                            <span class="nav-icon material-icons">language</span>
+                            <span class="nav-link-text">&nbsp; E-services</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="http://eservices.onlineupsidc.com/ViewOfficeOrdersPublic.aspx" class="nav-link">
+                            <span class="nav-icon material-icons">apartment</span>
+                            <span class="nav-link-text">&nbsp; Office Orders</span>
+                        </a>
+                    </li>
+                    <li class="nav-links expand-check">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon material-icons">source</span>
+                            <span class="nav-link-text">&nbsp; Resource Center</span>
+                        </a>
+                        <nav class="expand-nav hide">
+                            <ul class="expand-list">
+                                <li class="expand-item"><a href="./index.html" class="expand-link">Industrial Area
+                                        operating process</a>
+                                </li>
+                                <li class="expand-item"><a href="./officeorders.html" class="expand-link">Office
+                                        Orders</a></li>
+                                <li class="expand-item"><a href="./operating_manual_upsidc.html" class="expand-link">Operating manual
+                                        2011</a></li>
+                                <li class="expand-item"><a href="./building_23616.html" class="expand-link">Document for
+                                        approval of
+                                        building plan</a></li>
+                                <li class="expand-item"><a href="./rate_list_245415.html" class="expand-link">Present
+                                        Rates</a></li>
+                                <li class="expand-item"><a href="./DevelopmentProcess.html" class="expand-link">Development Process</a>
+                                </li>
+                                <li class="expand-item"><a href="./conditions_tender.html" class="expand-link">Conditions for tender</a>
+                                </li>
+                                <li class="expand-item"><a href="./allotment_form.html" class="expand-link">Allotment
+                                        application
+                                        form</a>
+                                </li>
+                                <li class="expand-item"><a href="./servicelink_03032015.html" class="expand-link">Services Rules</a>
+                                </li>
+                                <li class="expand-item"><a href="./OfcUser_pdf/UPSIDA Land & Building Regulations 2018 updated.pdf" class="expand-link">By Laws of UPSIDA</a></li>
+                                <li class="expand-item"><a href="./OfcUser_pdf/UPSIDA Land & Building Regulations 2018 updated.pdf" class="expand-link">Ammendment In UPSIDA Land Development & Building Regulation
+                                        2018 </a></li>
+                                <li class="expand-item"><a href="./OfcUser_pdf/SECOND AMMENDMENT IN UPSIDA LAND DEVELOPMENT AND BUILDING REGULATION 2018.pdf" class="expand-link">Second Ammendment In UPSIDA Land Development</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="nav-links expand-check">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon material-icons">event_available</span>
+                            <span class="nav-link-text">&nbsp; Available Plot</span>
+                        </a>
+                        <nav class="expand-nav hide">
+                            <ul class="expand-list">
+                                <li class="expand-item"><a href="./Advertisement.html" class="expand-link">Available
+                                        Plot List in Nivesh
+                                        Mitra </a></li>
+                                <li class="expand-item"><a href="https://upsida.mjunction.in/" class="expand-link">Available Plot in
+                                        E-auction </a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="nav-links expand-check">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon material-icons">contact_support</span>
+                            <span class="nav-link-text">&nbsp; Contact Us</span>
+                        </a>
+                        <nav class="expand-nav hide">
+                            <ul class="expand-list">
+                                <li class="expand-item"><a href="./HeadOffice.html" class="expand-link">Head Office</a>
+                                </li>
+                                <li class="expand-item"><a href="./Regionaloffice.html" class="expand-link">Regional/
+                                        project Office</a>
+                                </li>
+                                <li class="expand-item"><a href="./Divisionsoffice.html" class="expand-link">Divisonal
+                                        Office</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-bar-bottom">
+                <div class="social-handle">
+                    <a href="https://www.facebook.com/UPSIDAGoUP" class="icon fb"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/upsida" class="icon twit"><i class="fab fa-twitter"></i></a>
+                    <div class="theme">
+                        <span class="material-icons" id="light">light_mode</span>
+                        <span class="material-icons" id="dark">dark_mode</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-content">
+            <div class="main-content">
+                <main>
+                    <section class="middle-section">
+                        <div class="heading">
+                            <h1 class="primary-heading">Policies</h1>
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">Infrastructure & Industrial Investment Policy</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Infrastructure & Industrial Investment Policy Uttar Pradesh</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">अवस्थापना एव आद्यागिक निवश नोति उत्तर पदश</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">U.P. Warehousing and Logistic Policy 2018, Policy Rules and Amendments</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Warehousing Policy and Rules</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading"> Warehousing Amendment </h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Industry Status to Warehousing</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">25 Acres Warehousing Order</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Warehouse and Logistic Policy Ammendent</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">Textile Policy</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">UP Textile Policy - 2014 </h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">GO Related to Textile Policy - 2014</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">Land Acquisition Policy</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">New Land Acquisition Policy of Uttar Pradesh <br> (Hindi)</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">New Land Acquisition Policy of Uttar Pradesh (English)</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">UP Electronics Manufacturing Policy</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">UP Electonic Manufacturing Policy - 2014</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">Uttar Pradesh Information Technology & Startup Policy 2016</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Uttar Pradesh Information Technology and startup Policy 2016</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">Food Processing Industrial Policy - 2012</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Food Processing Industrial Policy - 2012 (Highlights)</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Food Processing Industrial Policy - 2012 (English)</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Food Processing Industrial Policy - 2012 (Hindi)</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Food Processing Industrial Policy - 2012 (Collection of Government Orders Part-I)</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Food Processing Industrial Policy - 2012 (colslection of Government Orders Part-II)</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">Solar Power Policy - 2013</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Solar Power Policy Uttar Pradesh - 2013 (English)</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rows">
+                            <h4 class="tertiary-heading">Private Park Criteria Amendment & Scheme</h4>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Private Park Criteria Amendment dt 12.06.2020</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                            <div class="cols">
+                                <div class="container">
+                                    <h2 class="secondary-heading">Private Park Scheme</h2>
+                                    <a href="https://www.onlineupsidc.com/pdf/Indl_Policy_English.pdf" class="btn-card">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+            <footer class="footer">
+                <div class="footer-content">
+                    Content on this website is published and managed by Uttar Pradesh State Industrial Development Authority. <br> For any query regarding this website, please contact the “ADMINISTRATOR”. <br> &#169; UPSIDA, U.P. India | All rights reserved
+                </div>
+                <div class="footer-img">
+                    <img src="./images/up_Black.png" alt="Footer image">
+                </div>
+            </footer>
+        </div>
+    </div>
+    <button class="scroll-to-top">
+        <span class="material-icons">arrow_upward</span>
+    </button>
+</body>
+<script src="https://kit.fontawesome.com/5e62d29057.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>

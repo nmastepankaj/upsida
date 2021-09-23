@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/side_bar.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/side_bar.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <title>UPSIDA</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-left">
+            <div class="up-logo">
+                <img src="./images/up_Black.png" alt="Header image">
+            </div>
+            <div class="side-bar-expand">
+                <div class="side-bar-expand-md">
+                    <div class="side-bar-expand-btn-md">
+                        <span class="material-icons">menu</span>
+                    </div>
+                </div>
+                <div class="side-bar-expand-sm">
+                    <div class="side-bar-expand-btn-sm">
+                        <span class="material-icons">menu</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-center">
+            <div class="upsida-logo">
+                <img src="images/upsida-logo-name.png" alt="UPSIDA Logo Name">
+            </div>
+            <div class="award-img">
+                <img src="images/awards.png" alt="Awards">
+            </div>
+        </div>
+        <div class="header-right">
+            <div class="calendar">
+                <noscript>Javascript Required</noscript>
+                <div class="day"></div>
+                <div class="full-date">
+                    <span class="date"></span>
+                    <span class="month"></span>
+                    <span class="year"></span>
+                </div>
+                <div class="full-time">
+                    <span class="hour"></span> :
+                    <span class="min"></span> :
+                    <span class="sec"></span>
+                    <span class="midday"></span>
+                </div>
+            </div>
+            <div class="header-btn">
+                <div class="webmail">
+                    <a href="http://webmail.upsidc.com/appsuite/" class="btn btn-warning web-mail header-btn-link">
+                        <span class="material-icons">email</span>
+                        <span class="header-btn-text">Web Mail</span>
+                    </a>
+                </div>
+                <div class="login">
+                    <a href="./OfficeUsers/Login.html" class="btn btn-primary log-in header-btn-link">
+                        <span class="material-icons">login</span>
+                        <span class="header-btn-text">Log In</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="side-bar">
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li class="nav-links">
+                        <a href="./index.html" class="nav-link">
+                            <span class="nav-icon material-icons">home</span>
+                            <span class="nav-link-text">&nbsp; Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="./aboutUPSIDC.html" class="nav-link">
+                            <span class="nav-icon material-icons">info</span>
+                            <span class="nav-link-text">&nbsp; About UPSIDA</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="./policies.html" class="nav-link">
+                            <span class="nav-icon material-icons">policy</span>
+                            <span class="nav-link-text">&nbsp; Policies</span>
+                        </a>
+                    </li>
+                    <li class="nav-links expand-check">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon material-icons">leaderboard</span>
+                            <span class="nav-link-text">&nbsp; Industrial Info</span>
+                        </a>
+                        <nav class="expand-nav hide">
+                            <ul class="expand-list">
+                                <li class="expand-item"><a href="./IndustrialAreas.html" class="expand-link">Industrial
+                                        Areas</a></li>
+                                <li class="expand-item"><a href="./VanVibhaagReport.html"
+                                        class="expand-link">Plantation</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="nav-links">
+                        <a href="http://gis.onlineupsidc.com" class="nav-link">
+                            <span class="nav-icon material-icons">terrain</span>
+                            <span class="nav-link-text">&nbsp; GIS</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="./eservices.html" class="nav-link">
+                            <span class="nav-icon material-icons">language</span>
+                            <span class="nav-link-text">&nbsp; E-services</span>
+                        </a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="./ViewOfficeOrdersPublic.html" class="nav-link">
+                            <span class="nav-icon material-icons">apartment</span>
+                            <span class="nav-link-text">&nbsp; Office Orders</span>
+                        </a>
+                    </li>
+                    <li class="nav-links expand-check">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon material-icons">source</span>
+                            <span class="nav-link-text">&nbsp; Resource Center</span>
+                        </a>
+                        <nav class="expand-nav hide">
+                            <ul class="expand-list">
+                                <li class="expand-item"><a href="./index.html" class="expand-link">Industrial Area
+                                        operating process</a>
+                                </li>
+                                <li class="expand-item"><a href="./officeorders.html" class="expand-link">Office
+                                        Orders</a></li>
+                                <li class="expand-item"><a href="./operating_manual_upsidc.html"
+                                        class="expand-link">Operating manual
+                                        2011</a></li>
+                                <li class="expand-item"><a href="./building_23616.html" class="expand-link">Document for
+                                        approval of
+                                        building plan</a></li>
+                                <li class="expand-item"><a href="./rate_list_245415.html" class="expand-link">Present
+                                        Rates</a></li>
+                                <li class="expand-item"><a href="./DevelopmentProcess.html"
+                                        class="expand-link">Development Process</a>
+                                </li>
+                                <li class="expand-item"><a href="./conditions_tender.html"
+                                        class="expand-link">Conditions for tender</a>
+                                </li>
+                                <li class="expand-item"><a href="./allotment_form.html" class="expand-link">Allotment
+                                        application
+                                        form</a>
+                                </li>
+                                <li class="expand-item"><a href="./servicelink_03032015.html"
+                                        class="expand-link">Services Rules</a>
+                                </li>
+                                <li class="expand-item"><a
+                                        href="./OfcUser_pdf/UPSIDA Land & Building Regulations 2018 updated.pdf"
+                                        class="expand-link">By Laws of UPSIDA</a></li>
+                                <li class="expand-item"><a
+                                        href="./OfcUser_pdf/UPSIDA Land & Building Regulations 2018 updated.pdf"
+                                        class="expand-link">Ammendment In UPSIDA Land Development & Building Regulation
+                                        2018 </a></li>
+                                <li class="expand-item"><a
+                                        href="./OfcUser_pdf/SECOND AMMENDMENT IN UPSIDA LAND DEVELOPMENT AND BUILDING REGULATION 2018.pdf"
+                                        class="expand-link">Second Ammendment In UPSIDA Land Development</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="nav-links expand-check">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon material-icons">event_available</span>
+                            <span class="nav-link-text">&nbsp; Available Plot</span>
+                        </a>
+                        <nav class="expand-nav hide">
+                            <ul class="expand-list">
+                                <li class="expand-item"><a href="./Advertisement.html" class="expand-link">Available
+                                        Plot List in Nivesh
+                                        Mitra </a></li>
+                                <li class="expand-item"><a href="https://upsida.mjunction.in/"
+                                        class="expand-link">Available Plot in
+                                        E-auction </a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                    <li class="nav-links expand-check">
+                        <a href="" class="nav-link">
+                            <span class="nav-icon material-icons">contact_support</span>
+                            <span class="nav-link-text">&nbsp; Contact Us</span>
+                        </a>
+                        <nav class="expand-nav hide">
+                            <ul class="expand-list">
+                                <li class="expand-item"><a href="./HeadOffice.html" class="expand-link">Head Office</a>
+                                </li>
+                                <li class="expand-item"><a href="./Regionaloffice.html" class="expand-link">Regional/
+                                        project Office</a>
+                                </li>
+                                <li class="expand-item"><a href="./Divisionsoffice.html" class="expand-link">Divisonal
+                                        Office</a></li>
+                            </ul>
+                        </nav>
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-bar-bottom">
+                <div class="social-handle">
+                    <a href="https://www.facebook.com/UPSIDAGoUP" class="icon fb"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/upsida" class="icon twit"><i class="fab fa-twitter"></i></a>
+                    <div class="theme">
+                        <span class="material-icons" id="light">light_mode</span>
+                        <span class="material-icons" id="dark">dark_mode</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-content">
+            <div class="main-content">
+                <section class="middle-section">
+                    <marquee behavior="sliding" direction="" class="marquee">
+                        <a href="https://www.onlineupsidc.com/pdf/TransGangaEOI.pdf">
+                            Expression of Interest (EOI) For Setting up of Hospitals, Schools, Flatted Factories,
+                            Warehouses, Industries, Group Housing, Sports Stadium, Golf Course with Club House, 5 Star
+                            Hotels or any other Real Estate Project in the Future Smart Cities - Trans Ganga City, Unnao
+                            near Kanpur & Saraswati Hi-Tech City, Prayagraj
+                        </a>
+                    </marquee>
+                    <div class="middle-images">
+                        <div class="row">
+                            <div class="profile-container col-lg-4 col-md-6">
+                                <div class="profile">
+                                    <div class="profile-card">
+                                        <div class="profile-head">
+                                            <div class="profile-img">
+                                                <img src="./images/cmnew.jpg" alt="">
+                                            </div>
+                                            <h3>
+                                                <div class="profile-name">Shri Yogi Adityanath</div>
+                                                <span class="profile-designation">Hon'ble Chief Minister</span>
+                                                <span class="profile-designation">Uttar Pradesh</span>
+                                            </h3>
+                                        </div>
+                                        <ul class="profile-social">
+                                            <li><a href="https://www.facebook.com/MYogiAdityanath/"
+                                                    class="profile-fb"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/myogi_adityanath/"
+                                                    class="profile-insta"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://twitter.com/myogiadityanath" class="profile-twit"><i
+                                                        class="fa fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-container col-lg-4 col-md-6">
+                                <div class="profile">
+                                    <div class="profile-card">
+                                        <div class="profile-head">
+                                            <div class="profile-img">
+                                                <img src="./images/SatishMahan.jpg" alt="">
+                                            </div>
+                                            <h3>
+                                                <div class="profile-name">Shri Satish Mahana</div>
+                                                <span class="profile-designation">Cabinet Minister of Industrial
+                                                    Development</span>
+                                                <span class="profile-designation">Uttar Pradesh</span>
+                                            </h3>
+                                        </div>
+                                        <ul class="profile-social">
+                                            <li><a href="https://www.facebook.com/satishmahanaup" class="profile-fb"><i
+                                                        class="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/satishmahanaup/"
+                                                    class="profile-insta"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://twitter.com/Satishmahanaup" class="profile-twit"><i
+                                                        class="fa fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-container col-lg-4 col-md-6">
+                                <div class="profile">
+                                    <div class="profile-card">
+                                        <div class="profile-head">
+                                            <div class="profile-img">
+                                                <img src="./images/image22321.jpg" alt="">
+                                            </div>
+                                            <h3>
+                                                <div class="profile-name">Shri Sanjeev Kumar Mittal (IAS)</div>
+                                                <span class="profile-designation">IIDC</span>
+                                            </h3>
+                                        </div>
+                                        <ul class="profile-social">
+                                            <li><a href="https://www.facebook.com/MYogiAdityanath/"
+                                                    class="profile-fb"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/myogi_adityanath/"
+                                                    class="profile-insta"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://twitter.com/myogiadityanath" class="profile-twit"><i
+                                                        class="fa fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-container col-lg-6 col-md-6">
+                                <div class="profile">
+                                    <div class="profile-card">
+                                        <div class="profile-head">
+                                            <div class="profile-img">
+                                                <img src="./images/upsidamd.jpg" alt="">
+                                            </div>
+                                            <h3>
+                                                <div class="profile-name">Shri Mayur Maheshwari (IAS)</div>
+                                                <span class="profile-designation">Chief Executive Officer</span>
+                                            </h3>
+                                        </div>
+                                        <ul class="profile-social">
+                                            <li><a href="https://www.facebook.com/MYogiAdityanath/"
+                                                    class="profile-fb"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/myogi_adityanath/"
+                                                    class="profile-insta"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://twitter.com/mayurias" class="profile-twit"><i
+                                                        class="fa fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-container col-lg-6 col-md-12">
+                                <div class="profile">
+                                    <div class="profile-card">
+                                        <div class="profile-head">
+                                            <div class="profile-img">
+                                                <img src="./images/arvin.jpg" alt="">
+                                            </div>
+                                            <h3>
+                                                <div class="profile-name">Shri Arvind Kumar (IAS)</div>
+                                                <span class="profile-designation">Additional Chief Secretary </span>
+                                                <span class="profile-designation">Infrastructure and Industrial
+                                                    Development
+                                                    Department</span>
+                                                <span class="profile-designation">Chairman (U.P.S.I.D.A.)</span>
+                                            </h3>
+                                        </div>
+                                        <ul class="profile-social">
+                                            <li><a href="https://www.facebook.com/MYogiAdityanath/"
+                                                    class="profile-fb"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.instagram.com/myogi_adityanath/"
+                                                    class="profile-insta"><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="https://twitter.com/arvindkumar_ias" class="profile-twit"><i
+                                                        class="fa fa-twitter"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="paragraph">
+                        Uttar Pradesh has been a leader in the industrial sector, and we have achieved this position
+                        with consistent
+                        efforts. We have taken right steps and in effect industries are not just coming to Uttar Pradesh
+                        from other
+                        states, but huge investments are flowing in from overseas also. Foreign investors are eager to
+                        invest in
+                        various sectors in the state after being convinced of the change in culture and ease of doing
+                        business.
+                        UPSIDA is the nodal agency for developing industrial infrastructure. UPSIDA has been
+                        spearheading the
+                        industrial promotion in the State and has been instrumental in keeping the State at the numero
+                        uno position
+                        among the states for several decades now. Till date, UPSIDA has developed a record 154
+                        industrial areas on
+                        approximately 43,788.54 acres of land across Uttar Pradesh.
+                    </div>
+                </section>
+                <div class="bottom-section">
+                    <div class="bottom-head">
+                        Promoting Industrial progress with a plethora of investor friendly reforms
+                    </div>
+                    <div class="bottom-body">
+                        <div class="news">
+                            <div class="row">
+                                <div class="news-letter col-lg-6 col-md-12">
+                                    <div class="news-letter-head">UPSIDA News Letter</div>
+                                    <div class="news-letter-list-container">
+                                        <ul class="news-letter-list">
+                                            <li class="news-letter-link">
+                                                <a href="https://www.onlineupsidc.com/pdf/UPSIDA%20Newsletter%20Edition1%20July%202020%20V(1.0).pdf"
+                                                    class="news-letter-content">News Letter: Edition-1</a>
+                                                <div class="news-letter-date">Date: 01/07/2020</div>
+                                            </li>
+                                            <li class="news-letter-link">
+                                                <a href="https://www.onlineupsidc.com/pdf/Newsletter%20Edition-2,%206%20Sep%202020%20(V1).pdf"
+                                                    class="news-letter-content">News Letter: Edition-2</a>
+                                                <div class="news-letter-date">Date: 15/09/2020</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="news-tender col-lg-6 col-md-12">
+                                    <div class="news-tender-head">
+                                        <span>News & Tenders</span>
+                                        <span class="material-icons pause">pause_circle</span>
+                                        <span class="material-icons play dispn">play_circle</span>
+                                    </div>
+                                    <div class="news-tender-list-container">
+                                        <ul class="news-tender-list">
+                                            <li class="news-tender-link">
+                                                <a href="pdf/396invitationpublicobj.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Invitation of public objection/suggestion on partial conversion of
+                                                    area measuring 9290sqmt.
+                                                </a>
+                                                <div class="news-tender-date">Date: 08/07/2021</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/etender119.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Maintenance and development and Electrification works in various
+                                                    Industrial Areas.
+                                                </a>
+                                                <div class="news-tender-date">Date: 30/06/2021</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/etenderfile2.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Drainage Cleaning and Remodelling , Hardoi, IA Sandilla.
+                                                </a>
+                                                <div class="news-tender-date">Date: </div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/mjunctionmerge.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Opportunity to get Industrial Pots in Kanpur, Fatehpur, TDS City,
+                                                    Unnao, Mathura, Mau, Amethi, Muzaffarnagar, Saharanpur, Barabanki,
+                                                    Hardoi, Etah, Baghpat, Applications invited for E-auction.
+                                                </a>
+                                                <div class="news-tender-date">Date: </div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/etenderconsult.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Inviting Reputed Consultancies for Investment Promotion, Investment
+                                                    Facilitation and Impolementation of EODB/Businesses Reforms, in
+                                                    UPSIDA
+                                                </a>
+                                                <div class="news-tender-date">Date: 16/03/2021</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/mjunctionad1.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    U.P. STATE INDUSTRIAL DEVELOPMENT AUTHORITY PROPOSES E-AUCTION OF
+                                                    INDUSTRIAL PLOTS REGIONAL OFFICES LUCKNOW, JHANSI, MEERUT, AGRA,
+                                                    BAREILLY, KANPUR, &amp; SURAJPUR
+                                                </a>
+                                                <div class="news-tender-date">Date: 27/01/2021</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/noticee-auction.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    E-Auction Services via M-Junction
+                                                </a>
+                                                <div class="news-tender-date">Date: 27/01/2021</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/sub division of amalgamated plots.pdf"
+                                                    class="news-tender-content" target="_blank">
+                                                    Subdivision of Amalgamated Plots, plot number A1, A3 and amalgamated
+                                                    a3/1, Sector 22, Meerut Road, Ghaziabad..
+                                                </a>
+                                                <div class="news-tender-date">Date: 27/01/2021</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/18.1.21.pdf" class="news-tender-content" target="_blank">
+                                                    Dismentling of defective damage and old wiring &amp;
+                                                    re-electrification of Regional Office Building, Kasna District, GB
+                                                    Nagar.
+                                                </a>
+                                                <div class="news-tender-date">Date: 18/01/2021</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/UPSIDA 1.pdf" class="news-tender-content" target="_blank">
+                                                    Public objections/Suggestions in layout plan of Itra Park/ Perfume
+                                                    Park, Thatia District, Kannauj.
+                                                </a>
+                                                <div class="news-tender-date">Date: 29/12/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/1169.pdf" class="news-tender-content" target="_blank">
+                                                    Approval of Amalgamation of Industrial Plot number 6A, 7A, 8A, 9A/
+                                                    Industrial Area Secunderabad.
+                                                </a>
+                                                <div class="news-tender-date">Date: 29/12/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/cd9tender23.12.2020.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Inviting organisations &amp; Authorities for maintenance and repair
+                                                    of Roads in Industrial Area Sidhwan, District Jaunpur &amp;
+                                                    Industrial Area Agro Park Karkhiyaon, district Varanasi .
+                                                </a>
+                                                <div class="news-tender-date">Date: 23/12/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/1113.pdf" class="news-tender-content" target="_blank">
+                                                    IA Mega Food Park, Bahedi, Ammendment in Development Policy , to be
+                                                    publisged in newspaper.
+                                                </a>
+                                                <div class="news-tender-date">Date: 14/12/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/1108.pdf" class="news-tender-content" target="_blank">
+                                                    IA Shahjahanpur, Ammendment in Development Policy , to be publisged
+                                                    in newspaper.
+                                                </a>
+                                                <div class="news-tender-date">Date: 11/12/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/1035.pdf" class="news-tender-content" target="_blank">
+                                                    Approval of Amalgamation of Industrial Plot number F-153 to F-155
+                                                    and F-162 to F-164 and F-156 to F-161, Industrial Area SIDC
+                                                    Chandauli.
+                                                </a>
+                                                <div class="news-tender-date">Date: 02/12/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/bulkdrugpark.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Appointment of Program Management Consultant for providing
+                                                    Comprehensive Consultancy Services including Preliminary Proposal,
+                                                    DPR, Master Planning, and Transaction Advisory for Bulk Drug Park in
+                                                    Uttar Pradesh
+                                                </a>
+                                                <div class="news-tender-date">Date: 07/08/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/etender9.11.2020.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Construction of 1X5 MVA, 33/11 KV Sub-Station at IA Trishundi,
+                                                    Sultanpur.
+                                                </a>
+                                                <div class="news-tender-date">Date: 09/11/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/tenderprayagraj.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Work of Patch Repair of Roads at Agro park, Karkhiyaon, District
+                                                    Varanasi
+                                                </a>
+                                                <div class="news-tender-date">Date: 16/10/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/bulkdrugparkrfp.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Appointment of program management consultant for providing
+                                                    comprehensive Consultancy Services including preliminary report,
+                                                    detailed project report, master planning, and transaction advisory
+                                                    for Bulk Drug Park in Uttar Pradesh
+                                                </a>
+                                                <div class="news-tender-date">Date: 07/08/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/E-Tender 18092020.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    <ol>
+                                                        <li>Providing street light fitting on CC Road at Saraswati
+                                                            HiTech City, Naini, Prayagraj</li>
+                                                        <li>Providing LT under Ground Power Network System in
+                                                            Residential Sector- 12A at Saraswati Hi-Tech City, NAini,
+                                                            Prayagraj</li>
+                                                        <li>Construction of 1X5 MVA,33/11 KV Sub-Station at Mega Food
+                                                            Park Baheri, Bareilly</li>
+                                                    </ol>
+                                                </a>
+                                                <div class="news-tender-date">Date: 18/09/2020</div>
+                                            </li>
+                                            <li class="news-tender-link">
+                                                <a href="pdf/CD-9 PRAYAGRAJ.pdf" class="news-tender-content"
+                                                    target="_blank">
+                                                    Corrigendum with respect to E-Tender notice displayed on 11.09.2020,
+                                                    Pyaragraj, Uttar Pradesh
+                                                </a>
+                                                <div class="news-tender-date">Date: 21/09/2020</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects">
+                            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./images/budget.jpg" class="d-block w-100" alt="Budget">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Trans Ganga City</h5>
+                                            <p>Trans Ganga City, UNNAO</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/budget-1.jpg" class="d-block w-100" alt="Budget">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Saraswati Hi Tech City</h5>
+                                            <p>Saraswati HI-TECH city, Allahabad</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/budget-2.jpg" class="d-block w-100" alt="Budget">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Trans Delhi Signature city</h5>
+                                            <p>Trans Delhi Signature City(Gaziabad)</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/budget-3.jpg" class="d-block w-100" alt="Budget">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Plastic City</h5>
+                                            <p>Plastic City, AURAIA</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/budget-4.jpg" class="d-block w-100" alt="Budget">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>AKIC</h5>
+                                            <p>Amritsar Kolkata Industrial Corridor</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/budget-5.jpg" class="d-block w-100" alt="Budget">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Perfume Park</h5>
+                                            <p>Perfume Park, Kannauj</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-foot">
+                        <div class="important-links-container">
+                            <div class="important-links-text-container">
+                                <span class="important-text">Important Links</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer-content">
+                    Content on this website is published and managed by Uttar Pradesh State Industrial Development
+                    Authority. <br>
+                    For any query regarding this website, please contact the “ADMINISTRATOR”. <br>
+                    &#169; UPSIDA, U.P. India | All rights reserved
+                </div>
+                <div class="footer-img">
+                    <img src="./images/up_Black.png" alt="Footer image">
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="important-link-popup">
+        <div class="important-link-popup-box">
+            <div class="close-popup"><span class="material-icons">cancel</span></div>
+            <div class="row">
+                <div class="important-text-btn col-lg-4 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="important-btn-container">
+                        <div class="important-btn">
+                            <a href="https://niveshmitra.up.nic.in/"><span>For online services </span><span> Apply
+                                    Here</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="important-text-btn col-lg-4 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="important-btn-container">
+                        <div class="important-btn">
+                            <a href="http://eservices.onlineupsidc.com/Default.aspx"><span>Track Application
+                                </span><span> Click Here</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="important-text-btn col-lg-4 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="important-btn-container">
+                        <div class="important-btn">
+                            <a href="https://www.onlineupsidc.com/pdf/Newsletter_june21.pdf"><span>UPSIDA News Letter
+                                </span><span> Click Here</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="important-text-btn col-lg-4 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="important-btn-container">
+                        <div class="important-btn">
+                            <a href="https://www.onlineupsidc.com/pdf/UPSIDAInformationGuide.pdf"><span>Invester Guide
+                                </span><span> Click Here</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="important-text-btn col-lg-4 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="important-btn-container">
+                        <div class="important-btn">
+                            <a href="https://eservices.onlineupsidc.com/RegistrationLogistics.aspx"><span>Application
+                                    For </span><span> Warehousing & Logistics</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="important-text-btn col-lg-4 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="important-btn-container">
+                        <div class="important-btn">
+                            <a href="https://etender.up.nic.in/nicgep/app"><span>Tenders </span><span> Uttar
+                                    Pradesh</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="important-text-btn col-lg-6 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="important-btn-container">
+                        <div class="important-btn">
+                            <a href="http://www.udyogbandhu.com/"><span>Departments of Infrastructure </span><span> &
+                                    Industrial Development</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="important-text-btn col-lg-6 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="important-btn-container">
+                        <div class="important-btn">
+                            <a href="http://up.gov.in/"><span>Government of </span><span> Uttar Pradesh</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="scroll-to-top">
+        <span class="material-icons">arrow_upward</span>
+    </button>
+</body>
+<script src="https://kit.fontawesome.com/5e62d29057.js" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>
