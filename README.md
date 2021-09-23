@@ -1,3 +1,5 @@
+permalink: /index.html
+
 # README #
 I am pankaj singh rana : I am connected and developing
 This README would normally document whatever steps are necessary to get your application up and running.
